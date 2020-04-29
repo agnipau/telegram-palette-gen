@@ -568,3 +568,15 @@ botKbDownBg: colorLighter0_40;                               // [UNTESTED]:
 
 // Overview
 overviewCheckBorder: color2;                                 // [UNTESTED]:
+
+// Sidebar
+sideBarBg: color0;
+sideBarBgActive: colorDarker1_60; 
+sideBarBrRipple: colorLighter0_60;
+sideBarTextFg: color7;
+sideBarTextFgActive: color6;
+sideBarIconFg: color7;
+sideBarIconFgActive: color6;
+sideBarBadgeBg: color6;
+sideBarBadgeBgMuted: color7;
+sideBarBadgeFg: colorLighter7_20;
