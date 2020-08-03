@@ -1,8 +1,10 @@
 # Installation
 
+NOW SUPPORTING FOLDERS!
+
 ```bash
-git clone --depth 1 https://github.com/matteoguarda/telegram-palette-gen ~/.telegram-palette-gen
-cd ~/.telegram-palette-gen
+git clone https://github.com/alecsferra/telegram-palette-gen
+cd telegram-palette-gen
 ./telegram-palette-gen
 ```
 

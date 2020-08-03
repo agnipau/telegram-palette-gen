@@ -288,7 +288,7 @@ historyFileNameInFg: historyTextInFg;                        // inbox testo file
 historyFileNameInFgSelected: colorLighter7_40;               // inbox testo filename media selezionato
 historyFileNameOutFg: historyTextOutFg;                      // outbox testo filename media non selezionato
 historyFileNameOutFgSelected: colorLighter7_40;              // outbox testo filename media selezionato
-historyOutIconFg: color2;                                    // outbox tick/doppio tick testo non selezionato 
+historyOutIconFg: color2;                                    // outbox tick/doppio tick testo non selezionato
 historyOutIconFgSelected: colorLighter7_40;                  // outbox tick/doppio tick testo selezionato
 historyIconFgInverted: color2;                               // outbox tick/doppio tick media
 historySendingOutIconFg: color2;                             // outbox icona invio mex (orologio)
@@ -359,8 +359,8 @@ msgServiceBg: color0;                                        // bg mex di serviz
 msgServiceBgSelected: color2;                                // bg mex di servizio selezionato
 msgInReplyBarColor: color2;                                  // inbox colore testo tipo inoltrato da ecc... non selezionato
 msgInReplyBarSelColor: colorLighter7_40;                     // inbox colore testo tipo inoltrato da ecc.... selezionato
-msgOutReplyBarColor: color2;                                 // outbox colore testo tipo inoltrato da ecc.... non selezionato 
-msgOutReplyBarSelColor: colorLighte7_40;                     // outbox colore testo tipo inoltrato da ecc.... selezionato 
+msgOutReplyBarColor: color2;                                 // outbox colore testo tipo inoltrato da ecc.... non selezionato
+msgOutReplyBarSelColor: colorLighte7_40;                     // outbox colore testo tipo inoltrato da ecc.... selezionato
 msgImgReplyBarColor: msgServiceFg;                           // [UNTESTED]: colore testo inoltrato qunado si tratta di immagini
 msgInMonoFg: color7;                                         // inbox mex monospace non selezionato
 msgInMonoFgSelected: colorLighter7_40;                       // inbox mex monospace selezionato
@@ -374,7 +374,7 @@ msgFileThumbLinkInFg: lightButtonFg;                         // inbox file media
 msgFileThumbLinkInFgSelected: lightButtonFgOver;             // inbox file media file mex scarica selezionato
 msgFileThumbLinkOutFg: color2;                               // outbox file media file mex scarica non selezionato
 msgFileThumbLinkOutFgSelected: colorLighter7_40;             // outbox file media file mex scarica selezionato
-msgFileInBg: color2;                                         // inbox bg file audio cerchio download 
+msgFileInBg: color2;                                         // inbox bg file audio cerchio download
 msgFileInBgOver: colorLighter2_30;                           // inbox bg file audio cerchio download con cursore sopra
 msgFileInBgSelected: colorLighter2_50;                       // inbox bg file audio cerchio download selezionato
 msgFileOutBg: color2;                                        // outbox bg file audio cerchio download
@@ -449,7 +449,7 @@ historyToDownShadow: colorAlpha0_40;                         // ombra del botton
 historyComposeAreaBg: color0;                                // bg area di composizione in basso a destra della schermata principale
 historyComposeAreaFg: historyTextInFg;                       // fg dell'area appena citata
 historyComposeAreaFgService: msgInDateFg;                    // testo mex selezionato nell'area di composizione
-historyComposeIconFg: menuIconFg;                            // fg icone dell'area composizione 
+historyComposeIconFg: menuIconFg;                            // fg icone dell'area composizione
 historyComposeIconFgOver: menuIconFgOver;                    // fg icone dell'area composizione con cursore sopra
 historySendIconFg: windowBgActive;                           // fg icona invio messaggio
 historySendIconFgOver: windowBgActive;                       // fg icona invio messaggio con cursore sopra
@@ -568,3 +568,15 @@ botKbDownBg: colorLighter0_40;                               // [UNTESTED]:
 
 // Overview
 overviewCheckBorder: color2;                                 // [UNTESTED]:
+
+// Sidebar
+sideBarBg:           color0;
+sideBarBgActive:     colorDarker1_60;
+sideBarBrRipple:     colorLighter0_60;
+sideBarTextFg:       color7;
+sideBarTextFgActive: color1;
+sideBarIconFg:       color7;
+sideBarIconFgActive: color1;
+sideBarBadgeBg:      color1;
+sideBarBadgeBgMuted: color7;
+sideBarBadgeFg:      colorLighter7_20;

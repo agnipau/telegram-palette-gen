@@ -13,7 +13,7 @@ Use the --help (or -h) to call this help function.
 
 e.g.
   ./telegram-palette-gen --wal
-  ./telegram-palette-gen --palette ~/progetti/themes/sh/material-default.sh
+  ./telegram-palette-gen --palette /path/to/palette
 EOF
 }
 
@@ -273,7 +273,8 @@ colorAlpha7_4c: ${color7}4c;
 colorAlpha7_6b: ${color7}6b;
 colorAlpha7_14: ${color7}14;
 EOF
-  const="$(<"${HOME}/.telegram-palette-gen/colors.tpg-constants")"
+  script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+  const="$(<"${script_dir}/colors.tpg-constants")"
   printf '%s' "$const" >> "${pre}/colors.tdesktop-palette"
 }
 
