@@ -336,9 +336,9 @@ historyScrollBg: colorAlpha7_4c;                             // bg barra normale
 historyScrollBgOver: colorAlpha7_6b;                         // bg barra con cursore sopra
 
 // Msg
-msgInBg: color0;                                             // inbox mex bg non selezionato
+msgInBg: colorLighter0_40;                                   // inbox mex bg non selezionato
 msgInBgSelected: color2;                                     // inbox mex bg selezionato
-msgOutBg: color0;                                            // outbox mex bg non selezionato
+msgOutBg: colorDarker0_20;                                   // outbox mex bg non selezionato
 msgOutBgSelected: color2;                                    // outbox mex bg selezionato
 msgSelectOverlay: colorAlpha2_4c;                            // overlay sopra il mex selezionato
 msgStickerOverlay: colorAlpha2_7f;                           // overlay sopra lo sticker selezionato
@@ -568,3 +568,15 @@ botKbDownBg: colorLighter0_40;                               // [UNTESTED]:
 
 // Overview
 overviewCheckBorder: color2;                                 // [UNTESTED]:
+
+// Sidebar
+sideBarBg: color0;
+sideBarBgActive: colorDarker1_60; 
+sideBarBrRipple: colorLighter0_60;
+sideBarTextFg: color7;
+sideBarTextFgActive: color6;
+sideBarIconFg: color7;
+sideBarIconFgActive: color6;
+sideBarBadgeBg: color6;
+sideBarBadgeBgMuted: color7;
+sideBarBadgeFg: colorLighter7_20;
